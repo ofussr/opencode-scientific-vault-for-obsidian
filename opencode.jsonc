@@ -1,0 +1,16 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "default_agent": "research-wiki",
+
+  "permissions": [
+    { "action": "edit", "resource": "*", "effect": "deny" },
+    { "action": "edit", "resource": "Knowledge/*", "effect": "allow" },
+    { "action": "edit", "resource": ".research/*", "effect": "allow" },
+    { "action": "shell", "resource": "*", "effect": "deny" },
+    { "action": "external_directory", "resource": "*", "effect": "deny" },
+    { "action": "websearch", "resource": "*", "effect": "ask" },
+    { "action": "webfetch", "resource": "*", "effect": "ask" },
+    { "action": "skill", "resource": "*", "effect": "allow" }
+  ]
+}

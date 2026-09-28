@@ -1,0 +1,22 @@
+# Personal vault content
+/Papers/
+/Knowledge/
+
+# Generated working data; keep the empty placeholders
+/.research/work/*
+!/.research/work/.gitkeep
+/.research/sources/*
+!/.research/sources/.gitkeep
+/.research/lint/*
+!/.research/lint/.gitkeep
+
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system files
+.DS_Store
+Thumbs.db
