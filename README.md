@@ -1,25 +1,6 @@
 # OpenCode Scientific Vault for Obsidian
 
-A bilingual (English/Russian) OpenCode setup for importing scientific papers into an Obsidian research vault.
-
-## Русский
-
-### Установка
-
-1. Откройте вкладку [Releases](https://github.com/ofussr/opencode-scientific-vault-for-obsidian/releases) и скачайте архив из последнего релиза.
-2. Распакуйте содержимое архива в корень вашего хранилища Obsidian.
-3. Если Obsidian предложит объединить папки или заменить файлы, сначала сохраните копии собственных настроек. Не удаляйте свои папки `Knowledge/` и `Papers/`.
-4. Подробная инструкция и примеры запросов: [README на русском](.opencode/README-RU.md).
-
-**Важно:** релизы появятся отдельно от исходного кода. Пока в разделе Releases нет релиза, готового установочного архива там нет.
-
-### Что входит
-
-- Команды и навыки OpenCode для импорта научных статей, проверки заметок, рефакторинга и поиска потерянных связей.
-- Настройки и инструкции для работы с хранилищем Obsidian.
-- Шаблоны, ориентированные на двуязычные заметки: сначала английский текст, затем русский перевод.
-
-Папки с личными заметками и PDF исключены из Git.
+An OpenCode setup for importing scientific papers into an Obsidian research vault.
 
 ## English
 
@@ -43,3 +24,22 @@ Personal notes and PDFs are excluded from Git.
 ## Development
 
 The repository contains configuration and reusable instructions. It does not include a user's private vault, papers, or generated notes.
+
+## Русский
+
+### Установка
+
+1. Откройте вкладку [Releases](https://github.com/ofussr/opencode-scientific-vault-for-obsidian/releases) и скачайте архив из последнего релиза.
+2. Распакуйте содержимое архива в корень вашего хранилища Obsidian.
+3. Если Obsidian предложит объединить папки или заменить файлы, сначала сохраните копии собственных настроек. Не удаляйте свои папки `Knowledge/` и `Papers/`.
+4. Подробная инструкция и примеры запросов: [README на русском](.opencode/README-RU.md).
+
+**Важно:** релизы появятся отдельно от исходного кода. Пока в разделе Releases нет релиза, готового установочного архива там нет.
+
+### Что входит
+
+- Команды и навыки OpenCode для импорта научных статей, проверки заметок, рефакторинга и поиска потерянных связей.
+- Настройки и инструкции для работы с хранилищем Obsidian.
+- Шаблоны, ориентированные на двуязычные заметки: сначала английский текст, затем русский перевод.
+
+Папки с личными заметками и PDF исключены из Git.
